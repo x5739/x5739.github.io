@@ -51,7 +51,7 @@
   isHome: true,
   isHighlightShrink: false,
   isToc: false,
-  postUpdate: '2022-07-13 23:00:31'
+  postUpdate: '2022-07-14 23:40:04'
 }</script><noscript><style type="text/css">
   #nav {
     opacity: 1
@@ -188,33 +188,39 @@
 [toc]
 计算机网络数据结构计算机组成原理操作系统</div></div></div><div class="recent-post-item"><div class="post_cover right"><a href="/2022/07/05/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C/" title="计算机网络"><img class="post_bg" src="https://img-baofun.zhhainiao.com/pcwallpaper_ugc/static/f539a331d72b032b997dd517d8e1813d.jpg?x-oss-process=image%2fresize%2cm_lfit%2cw_1920%2ch_1080" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="计算机网络"></a></div><div class="recent-post-info"><a class="article-title" href="/2022/07/05/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C/" title="计算机网络">计算机网络</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">发表于</span><time datetime="2022-07-05T03:01:52.372Z" title="发表于 2022-07-05 11:01:52">2022-07-05</time></span><span class="article-meta"><span class="article-meta-separator">|</span><i class="fas fa-inbox"></i><a class="article-meta__categories" href="/categories/408/">408</a><i class="fas fa-angle-right article-meta-link"></i><a class="article-meta__categories" href="/categories/408/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C/">计算机网络</a></span></div><div class="content">[toc]
 [toc]
-第一章第二章通信基础1.物理层解决如何在连接各种计算机的传输媒体上传输比特流数据，而不是指具体的传输媒体。
-⚡2.物理层特性：
-
-机械特性:指明在接口所用接线器的形状和尺寸、引脚数目和排列、固定和锁定装置等。
-电气特性：指明在接口电缆的各条线上出现的电压的范围。
-功能特性：指明某条线上出现的某一电平的电压的意义。
-过程特性：指明对于不同功能的各种可能事件的出现顺序。
-
-3.码元传输速率   &amp;   信息传输速率
-⚡4.奈氏准则  香农定理
-
-奈氏准则（奈奎斯特定理
-
-为了解决码间串扰
-
-在理想低通（没有噪声。带宽有限）的信道中，为了避免码间串扰，极限码元传输速率为2W波特（Baud）。其中W是理想低通信道的带宽。V表示每个码元离散电平数目。
+第一章概述1.internet：通用名词，互联网/互连网  
+   Internet：专业名词，因特网
+2.因特网发展三个阶段
 
 
-理想低通信道下的极限数据传输速率=2Wlog2V  （单位b/s）
+3.因特网服务提供者ISP(Internet Service Provider)
+电信，移动，联通
+基于ISP的三层结构的因特网→基于ISP的多层次结构的因特网
+4.因特网的标准化工作
+面向公众
+RFC(Request For Comments)技术文档
+一些组织和正式标准的四个阶段：
 
-奈氏准则给出了码元传输速率的限制，并未对信息传输速率给出限制。
+5.因特网组成
+边缘部分  核心部分
+三种交换方式电路交换(Circuit Switching):建立连接→数据传送→释放连接：比特流直达终点
+报文交换(Message Switching)：存储转发方式
+分组交换(Packeet Switching)：存储转发方式
+发送方(构造分组，发送分组)   路由器(缓存分组，转发分组) 接收方(接收分组，还原报文)
+分组交换：
 
-香农定理
+数据报服务
+虚电路服务：呼叫建立→数据传输→虚电路释放
 
-香农定理给出了带宽受限且有高斯白噪声干扰的信道的极限数据传输速率，当用此速率进行传输，可以做到不产生误差。
 
-信道的极限数据传输速率=wlog2(1+S/N)   b ...</div></div></div><div class="recent-post-item"><div class="post_cover left"><a href="/2022/07/03/matlab/" title="matlab"><img class="post_bg" src="https://img-baofun.zhhainiao.com/fs/f0f4698d3237425e56ebf4a09f56a538.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="matlab"></a></div><div class="recent-post-info"><a class="article-title" href="/2022/07/03/matlab/" title="matlab">matlab</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">发表于</span><time datetime="2022-07-03T13:41:41.089Z" title="发表于 2022-07-03 21:41:41">2022-07-03</time></span><span class="article-meta"><span class="article-meta-separator">|</span><i class="fas fa-inbox"></i><a class="article-meta__categories" href="/categories/%E7%BC%96%E7%A8%8B/">编程</a></span></div><div class="content">[toc]
+
+
+定义和分类
+一些互相连接的，自治的计算机的集合。
+
+分类：
+
+按交换技术分：电路交换网络，报文交换网络，分组交换网 ...</div></div></div><div class="recent-post-item"><div class="post_cover left"><a href="/2022/07/03/matlab/" title="matlab"><img class="post_bg" src="https://img-baofun.zhhainiao.com/fs/f0f4698d3237425e56ebf4a09f56a538.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="matlab"></a></div><div class="recent-post-info"><a class="article-title" href="/2022/07/03/matlab/" title="matlab">matlab</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">发表于</span><time datetime="2022-07-03T13:41:41.089Z" title="发表于 2022-07-03 21:41:41">2022-07-03</time></span><span class="article-meta"><span class="article-meta-separator">|</span><i class="fas fa-inbox"></i><a class="article-meta__categories" href="/categories/%E7%BC%96%E7%A8%8B/">编程</a></span></div><div class="content">[toc]
 </div></div></div><div class="recent-post-item"><div class="post_cover right"><a href="/2022/07/03/K&amp;R%20the%20c/" title="K&amp;R the c"><img class="post_bg" src="https://img-baofun.zhhainiao.com/fs/0a73b0e5b77113bd0b7d4aa439cd9548.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="K&amp;R the c"></a></div><div class="recent-post-info"><a class="article-title" href="/2022/07/03/K&amp;R%20the%20c/" title="K&amp;R the c">K&amp;R the c</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">发表于</span><time datetime="2022-07-03T10:48:16.140Z" title="发表于 2022-07-03 18:48:16">2022-07-03</time></span><span class="article-meta"><span class="article-meta-separator">|</span><i class="fas fa-inbox"></i><a class="article-meta__categories" href="/categories/408/">408</a><i class="fas fa-angle-right article-meta-link"></i><a class="article-meta__categories" href="/categories/408/c%E8%AF%AD%E8%A8%80/">c语言</a></span></div><div class="content">[toc]
 第一章第二章 计算浮点数单精度浮点数：float   %f     
 双精度浮点数：double  %lf
@@ -317,7 +323,7 @@ npm install –save hexo-blog-encrypt
             </div>
             <ul class="card-category-list" id="aside-cat-list">
             <li class="card-category-list-item "><a class="card-category-list-link" href="/categories/408/"><span class="card-category-list-name">408</span><span class="card-category-list-count">4</span></a><ul class="card-category-list child"><li class="card-category-list-item "><a class="card-category-list-link" href="/categories/408/checklist/"><span class="card-category-list-name">checklist</span><span class="card-category-list-count">1</span></a></li><li class="card-category-list-item "><a class="card-category-list-link" href="/categories/408/c%E8%AF%AD%E8%A8%80/"><span class="card-category-list-name">c语言</span><span class="card-category-list-count">1</span></a></li><li class="card-category-list-item "><a class="card-category-list-link" href="/categories/408/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/"><span class="card-category-list-name">数据结构</span><span class="card-category-list-count">1</span></a></li><li class="card-category-list-item "><a class="card-category-list-link" href="/categories/408/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C/"><span class="card-category-list-name">计算机网络</span><span class="card-category-list-count">1</span></a></li></ul></li><li class="card-category-list-item "><a class="card-category-list-link" href="/categories/%E6%95%B0%E4%BA%8C/"><span class="card-category-list-name">数二</span><span class="card-category-list-count">1</span></a><ul class="card-category-list child"><li class="card-category-list-item "><a class="card-category-list-link" href="/categories/%E6%95%B0%E4%BA%8C/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6/"><span class="card-category-list-name">高等数学</span><span class="card-category-list-count">1</span></a></li></ul></li><li class="card-category-list-item "><a class="card-category-list-link" href="/categories/%E7%BC%96%E7%A8%8B/"><span class="card-category-list-name">编程</span><span class="card-category-list-count">1</span></a></li>
-            </ul></div><div class="card-widget card-tags"><div class="item-headline"><i class="fas fa-tags"></i><span>标签</span></div><div class="card-tag-cloud"><a href="/tags/hello/" style="font-size: 1.5em; color: #99a9bf">hello</a> <a href="/tags/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/" style="font-size: 1.1em; color: #999">数据结构</a> <a href="/tags/%E7%BC%96%E7%A8%8B/" style="font-size: 1.1em; color: #999">编程</a> <a href="/tags/%E8%80%83%E7%A0%94/" style="font-size: 1.1em; color: #999">考研</a> <a href="/tags/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C/" style="font-size: 1.1em; color: #999">计算机网络</a> <a href="/tags/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6/" style="font-size: 1.1em; color: #999">高等数学</a></div></div><div class="card-widget card-archives"><div class="item-headline"><i class="fas fa-archive"></i><span>归档</span></div><ul class="card-archive-list"><li class="card-archive-list-item"><a class="card-archive-list-link" href="/archives/2022/07/"><span class="card-archive-list-date">七月 2022</span><span class="card-archive-list-count">10</span></a></li></ul></div><div class="card-widget card-webinfo"><div class="item-headline"><i class="fas fa-chart-line"></i><span>网站资讯</span></div><div class="webinfo"><div class="webinfo-item"><div class="item-name">文章数目 :</div><div class="item-count">10</div></div><div class="webinfo-item"><div class="item-name">已运行时间 :</div><div class="item-count" id="runtimeshow" data-publishDate="2022-07-03T09:00:00.000Z"><i class="fa-solid fa-spinner fa-spin"></i></div></div><div class="webinfo-item"><div class="item-name">本站访客数 :</div><div class="item-count" id="busuanzi_value_site_uv"><i class="fa-solid fa-spinner fa-spin"></i></div></div><div class="webinfo-item"><div class="item-name">本站总访问量 :</div><div class="item-count" id="busuanzi_value_site_pv"><i class="fa-solid fa-spinner fa-spin"></i></div></div><div class="webinfo-item"><div class="item-name">最后更新时间 :</div><div class="item-count" id="last-push-date" data-lastPushDate="2022-07-13T15:00:30.996Z"><i class="fa-solid fa-spinner fa-spin"></i></div></div></div></div></div><div class="card-widget card-map"></div><div class="card-content"></div><div class="item-headline"></div><i class="fa fa-map-marker" aria-hidden="true"></i><span>访客</span><script type="text/javascript" id="clstr_globe" src="//clustrmaps.com/globe.js?d=MvMt8HpSKAJfwkCw-19vzJ73JO7AgWOa2AJ5dPKGVpo"></script></div></main><footer id="footer"><div id="footer-wrap"><div class="copyright">&copy;2022 By 七夜雪</div><div class="framework-info"><span>框架 </span><a target="_blank" rel="noopener" href="https://hexo.io">Hexo</a><span class="footer-separator">|</span><span>主题 </span><a target="_blank" rel="noopener" href="https://github.com/jerryc127/hexo-theme-butterfly">Butterfly</a><img src="https://www.beian.gov.cn/img/new/gongan.png">
+            </ul></div><div class="card-widget card-tags"><div class="item-headline"><i class="fas fa-tags"></i><span>标签</span></div><div class="card-tag-cloud"><a href="/tags/hello/" style="font-size: 1.5em; color: #99a9bf">hello</a> <a href="/tags/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/" style="font-size: 1.1em; color: #999">数据结构</a> <a href="/tags/%E7%BC%96%E7%A8%8B/" style="font-size: 1.1em; color: #999">编程</a> <a href="/tags/%E8%80%83%E7%A0%94/" style="font-size: 1.1em; color: #999">考研</a> <a href="/tags/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C/" style="font-size: 1.1em; color: #999">计算机网络</a> <a href="/tags/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6/" style="font-size: 1.1em; color: #999">高等数学</a></div></div><div class="card-widget card-archives"><div class="item-headline"><i class="fas fa-archive"></i><span>归档</span></div><ul class="card-archive-list"><li class="card-archive-list-item"><a class="card-archive-list-link" href="/archives/2022/07/"><span class="card-archive-list-date">七月 2022</span><span class="card-archive-list-count">10</span></a></li></ul></div><div class="card-widget card-webinfo"><div class="item-headline"><i class="fas fa-chart-line"></i><span>网站资讯</span></div><div class="webinfo"><div class="webinfo-item"><div class="item-name">文章数目 :</div><div class="item-count">10</div></div><div class="webinfo-item"><div class="item-name">已运行时间 :</div><div class="item-count" id="runtimeshow" data-publishDate="2022-07-03T09:00:00.000Z"><i class="fa-solid fa-spinner fa-spin"></i></div></div><div class="webinfo-item"><div class="item-name">本站访客数 :</div><div class="item-count" id="busuanzi_value_site_uv"><i class="fa-solid fa-spinner fa-spin"></i></div></div><div class="webinfo-item"><div class="item-name">本站总访问量 :</div><div class="item-count" id="busuanzi_value_site_pv"><i class="fa-solid fa-spinner fa-spin"></i></div></div><div class="webinfo-item"><div class="item-name">最后更新时间 :</div><div class="item-count" id="last-push-date" data-lastPushDate="2022-07-14T15:40:03.943Z"><i class="fa-solid fa-spinner fa-spin"></i></div></div></div></div></div><div class="card-widget card-map"></div><div class="card-content"></div><div class="item-headline"></div><i class="fa fa-map-marker" aria-hidden="true"></i><span>访客</span><script type="text/javascript" id="clstr_globe" src="//clustrmaps.com/globe.js?d=MvMt8HpSKAJfwkCw-19vzJ73JO7AgWOa2AJ5dPKGVpo"></script></div></main><footer id="footer"><div id="footer-wrap"><div class="copyright">&copy;2022 By 七夜雪</div><div class="framework-info"><span>框架 </span><a target="_blank" rel="noopener" href="https://hexo.io">Hexo</a><span class="footer-separator">|</span><span>主题 </span><a target="_blank" rel="noopener" href="https://github.com/jerryc127/hexo-theme-butterfly">Butterfly</a><img src="https://www.beian.gov.cn/img/new/gongan.png">
 <a href="http://www.beian.miit.gov.cn/"  style="color:#f72b07" target="_blank">闽ICP备05005471号</a></div><div class="footer_custom_text">雪落七夜</div></div></footer></div><div id="rightside"><div id="rightside-config-hide"><button id="darkmode" type="button" title="浅色和深色模式转换"><i class="fas fa-adjust"></i></button><button id="hide-aside-btn" type="button" title="单栏和双栏切换"><i class="fas fa-arrows-alt-h"></i></button></div><div id="rightside-config-show"><button id="rightside_config" type="button" title="设置"><i class="fas fa-cog fa-spin"></i></button><button id="go-up" type="button" title="回到顶部"><i class="fas fa-arrow-up"></i></button></div></div><div id="local-search"><div class="search-dialog"><nav class="search-nav"><span class="search-dialog-title">搜索</span><span id="loading-status"></span><button class="search-close-button"><i class="fas fa-times"></i></button></nav><div class="is-center" id="loading-database"><i class="fas fa-spinner fa-pulse"></i><span>  数据库加载中</span></div><div class="search-wrap"><div id="local-search-input"><div class="local-search-box"><input class="local-search-box--input" placeholder="搜索文章" type="text"/></div></div><hr/><div id="local-search-results"></div></div></div><div id="search-mask"></div></div><div><script src="/js/utils.js"></script><script src="/js/main.js"></script><script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.umd.min.js"></script><script src="https://cdn.jsdelivr.net/npm/node-snackbar/dist/snackbar.min.js"></script><script src="/js/search/local-search.js"></script><div class="js-pjax"><script>function subtitleType () {
   if (true) { 
     window.typed = new Typed("#subtitle", {
