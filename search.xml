@@ -4,6 +4,33 @@
   
     
     <entry>
+      <title>计算机组成原理</title>
+      <link href="/2022/08/15/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BB%84%E6%88%90%E5%8E%9F%E7%90%86/"/>
+      <url>/2022/08/15/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BB%84%E6%88%90%E5%8E%9F%E7%90%86/</url>
+      
+        <content type="html"><![CDATA[<p>[toc]</p><p>[toc]</p><h3 id="计算机系统概述"><a href="#计算机系统概述" class="headerlink" title="计算机系统概述"></a>计算机系统概述</h3><h4 id="发展历史"><a href="#发展历史" class="headerlink" title="发展历史"></a>发展历史</h4><h4 id="层次结构"><a href="#层次结构" class="headerlink" title="层次结构"></a>层次结构</h4><h4 id="性能指标"><a href="#性能指标" class="headerlink" title="性能指标"></a>性能指标</h4><h3 id="数据的表示和运算"><a href="#数据的表示和运算" class="headerlink" title="数据的表示和运算"></a>数据的表示和运算</h3><h4 id="数制与编码"><a href="#数制与编码" class="headerlink" title="数制与编码"></a>数制与编码</h4><h4 id="运算方法和运算电路"><a href="#运算方法和运算电路" class="headerlink" title="运算方法和运算电路"></a>运算方法和运算电路</h4><h4 id="浮点数的表示与运算"><a href="#浮点数的表示与运算" class="headerlink" title="浮点数的表示与运算"></a>浮点数的表示与运算</h4><h3 id="存储系统"><a href="#存储系统" class="headerlink" title="存储系统"></a>存储系统</h3><h4 id="存储器概述"><a href="#存储器概述" class="headerlink" title="存储器概述"></a>存储器概述</h4><h4 id="主存储器"><a href="#主存储器" class="headerlink" title="主存储器"></a>主存储器</h4><h4 id="主存储器与CPU连接"><a href="#主存储器与CPU连接" class="headerlink" title="主存储器与CPU连接"></a>主存储器与CPU连接</h4><h4 id="外部存储器"><a href="#外部存储器" class="headerlink" title="外部存储器"></a>外部存储器</h4><h4 id="高速缓冲存储器"><a href="#高速缓冲存储器" class="headerlink" title="高速缓冲存储器"></a>高速缓冲存储器</h4><h4 id="虚拟存储器"><a href="#虚拟存储器" class="headerlink" title="虚拟存储器"></a>虚拟存储器</h4><h3 id="指令系统"><a href="#指令系统" class="headerlink" title="指令系统"></a>指令系统</h3><h3 id="中央处理器"><a href="#中央处理器" class="headerlink" title="中央处理器"></a>中央处理器</h3><h3 id="总线"><a href="#总线" class="headerlink" title="总线"></a>总线</h3><h3 id="输入-x2F-输出系统"><a href="#输入-x2F-输出系统" class="headerlink" title="输入/输出系统"></a>输入/输出系统</h3>]]></content>
+      
+      
+      <categories>
+          
+          <category> 408 </category>
+          
+          <category> 计算机组成原理 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 计算机组成原理 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>高等数学</title>
       <link href="/2022/07/12/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6/"/>
       <url>/2022/07/12/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6/</url>
