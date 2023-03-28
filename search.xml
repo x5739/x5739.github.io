@@ -4,11 +4,11 @@
   
     
     <entry>
-      <title>leetcode</title>
+      <title>Online Judge</title>
       <link href="/2023/03/26/leetcode/"/>
       <url>/2023/03/26/leetcode/</url>
       
-        <content type="html"><![CDATA[<p>[toc]</p><p>[toc]</p><p>数据结构代码 - 剑指office - leetcode - oj …</p>]]></content>
+        <content type="html"><![CDATA[<p>[toc]</p><p>数据结构代码 - 剑指office - leetcode - oj …</p><hr><h3 id="杭电oj"><a href="#杭电oj" class="headerlink" title="杭电oj"></a>杭电oj</h3><p>1000 A+B Problem</p><figure class="highlight c"><table><tbody><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&lt;stdio.h&gt;</span></span></span><br><span class="line"><span class="type">int</span> <span class="title function_">main</span><span class="params">()</span>{</span><br><span class="line">    <span class="type">int</span> a=<span class="number">0</span>,b=<span class="number">0</span>;</span><br><span class="line">    <span class="keyword">while</span>(<span class="built_in">scanf</span>(<span class="string">"%d%d"</span>,&amp;a,&amp;b)!=EOF) <span class="comment">//Process to end of file</span></span><br><span class="line">        <span class="built_in">printf</span>(<span class="string">"%d\n"</span>,a+b);</span><br><span class="line">    <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">}</span><br><span class="line"></span><br></pre></td></tr></tbody></table></figure><p>1001 Sum Problem</p><figure class="highlight plaintext"><table><tbody><tr><td class="code"><pre><span class="line"># include&lt;stdio.h&gt;</span><br><span class="line">int main(){</span><br><span class="line">    int n;</span><br><span class="line">    int sum = 0;</span><br><span class="line">    while(scanf("%d",&amp;n)!=EOF){</span><br><span class="line">        int i;</span><br><span class="line">        for(i=1;i&lt;n+1;i++)</span><br><span class="line">            sum += i;</span><br><span class="line">        printf("%d\n\n",sum);</span><br><span class="line">        sum = 0;</span><br><span class="line">    }</span><br><span class="line">    return 0;</span><br><span class="line">}</span><br></pre></td></tr></tbody></table></figure><h3 id="剑指office"><a href="#剑指office" class="headerlink" title="剑指office"></a>剑指office</h3><h3 id="leetcode"><a href="#leetcode" class="headerlink" title="leetcode"></a>leetcode</h3>]]></content>
       
       
       
